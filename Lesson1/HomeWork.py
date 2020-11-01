@@ -40,7 +40,7 @@ print("task 4 " + "*"*50)
 num = 123321
 maximum = 0
 
-while num % 10 > 0:
+while num > 0:
     currentNum = num % 10
     if currentNum > maximum:
         maximum = currentNum
